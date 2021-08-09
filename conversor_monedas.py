@@ -1,5 +1,4 @@
 # Conversor de monedas
-
 print("Selecciona una de las siguientes opciones.")
 print(''' [1] Convertir peso Mx a dolar Us\n [2] Convertir dolar Us a peso Mx\n''')
 opcion = int(input("Opcion: "))
