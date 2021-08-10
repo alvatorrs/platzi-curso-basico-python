@@ -11,3 +11,6 @@ Convierte a dolares el valor de tres diferentes tipos de moneda: México, Colomb
 
 # 3.- Palíndromo
 Verífica si la palabra escrita es un palíndromo.
+
+# 4.- Prueba de primalidad
+Verífic si un número es primo o no.
