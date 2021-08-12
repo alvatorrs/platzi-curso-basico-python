@@ -14,3 +14,9 @@ Verífica si la palabra escrita es un palíndromo.
 
 # 4.- Prueba de primalidad
 Verífica si un número es primo o no.
+
+# 5.- Juego adivina el número
+Un pequeño juego interactivo por consola, donde el usuario tiene que adivinar un número.
+
+# 6.- Generador de contraseñas
+Programa que genera contraseñas aleatorias de 15 digitos.
