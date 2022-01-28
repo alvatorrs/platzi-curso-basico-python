@@ -2,7 +2,7 @@ def conversor(tipo_pesos,valor_dolar):
     pesos = input(f"¿Cuántos pesos {tipo_pesos} tienes?: ")
     pesos = float(pesos)
     dolares = pesos/valor_dolar
-    dolares= str(round(dolares,2))
+    dolares= round(dolares,2)
     print(f"Tienes $ {dolares} dolares")
 
 

@@ -8,7 +8,6 @@ def conversion(moneda,cantidad):
         factor = 1/(19.95)
     convertido = cantidad/factor
     convertido = round(convertido,2)
-    convertido = str(convertido)
     print(f'Tienes {convertido} {moneda}')
 
 
@@ -21,15 +20,15 @@ def main():
     if opcion == 1:
         print("Convertir peso Mx a dolar Us\n")
         pesos = float(input("Cantidad de pesos: "))
-        opcion = "dolares"
-        conversion(opcion,pesos)
+        moneda = "dolares"
+        conversion(moneda,pesos)
     elif opcion == 2:
         print("Convertir dolar Us a peso Mx\n")
         dolar = float(input("Cantidad de dolares: "))
-        opcion = "pesos"
-        conversion(opcion,dolar)
+        moneda = "pesos"
+        conversion(moneda,dolar)
     else:
-        print("Intentelo de nuevo :)")
+        print("\nIntentelo de nuevo 😂\n")
         main()
 
 if __name__ == '__main__':
